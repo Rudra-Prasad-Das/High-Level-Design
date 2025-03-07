@@ -31,7 +31,7 @@ Total Products = 10M
 
 Database Design : 
 
-User (SQL Data base)
+* User (SQL Data base)
 
 -UserID (Primary Key)
 -Password(String) Encrypted
@@ -42,7 +42,7 @@ User (SQL Data base)
 -Profile Created (DTTM)
 
 
-Address :
+* Address :
 
 -AddressID (Primary Key)
 -UserID (Foreign Key)
@@ -53,7 +53,7 @@ Address :
 -Address Type (Integer)
 
 
-Product : 
+* Product : 
 
 The product data is not very structured. 
 Database choice : No-SQL Database / Document DB  -> MongoDB or DynamoDB
