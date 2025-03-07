@@ -10,7 +10,7 @@
 ## Assumptions:
 
 1. User profile creation is provided.
-2.Product Onboarding is provided.
+2. Product Onboarding is provided.
 3. Payment gateway is provided.
 
 ## Non Functional Requirements :
