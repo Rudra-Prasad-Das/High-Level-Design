@@ -58,6 +58,11 @@ Address :
 The product data is not very structured. 
 Database choice : No-SQL Database / Document DB  -> MongoDB or DynamoDB
 
+Order :
+
+While SQL databases typically require two separate tables—one for storing order details and another for storing the individual items within each order—using a NoSQL database offers several advantages, especially when dealing with large, variable numbers of items in each order.
+
+With a NoSQL database, such as MongoDB, you can store all the items within an order as an array inside the same JSON document. This eliminates the need for multiple tables and complex joins, making data retrieval simpler and more efficient.
 
 ### APIs :
 
