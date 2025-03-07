@@ -1,4 +1,4 @@
-# Design Amazon (E-Commerece Website)
+# Design Amazon (E-Commerce Website)
 
 ## Functional Requirements :
 
