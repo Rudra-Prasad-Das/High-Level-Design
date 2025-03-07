@@ -53,7 +53,17 @@ Address :
 - Address Type (Integer)
 
 
-* Product : 
+ Product : 
 
 The product data is not very structured. 
 Database choice : No-SQL Database / Document DB  -> MongoDB or DynamoDB
+
+
+### APIs :
+
+- getRecommendations(UserId)  : return list of 10-15 product recommendations based on users past activity
+- Search(SearchString, UserId) : GET method and it returns the list of products based on availability on the userId location
+- AddToCart(ProductId,UserId,Qty,Amount) : return boolean
+- PlaceOrder(ProductId, UserId, AddressId, PaymentStatus) : returns boolean
+- CheckOrderStatus(OrderId) : return boolean
+
