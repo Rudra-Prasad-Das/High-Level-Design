@@ -112,19 +112,19 @@ When an order is placed, the items are moved from the cart database to the order
 Order Status and Product Reviews:
 
 Users can check their order status and read/write product reviews from respective services.
-System Scalability:
+- System Scalability:
 
-- Load balancers and multiple service instances are used to evenly distribute traffic.
-- Elasticsearch speeds up search operations.
-- Master-slave database design separates read and write operations for better performance.
-- Redundant databases protect against data loss.
+  - Load balancers and multiple service instances are used to evenly distribute traffic.
+  - Elasticsearch speeds up search operations.
+  - Master-slave database design separates read and write operations for better performance.
+  - Redundant databases protect against data loss.
 - Data Management:
 
-- Archiving old search history and orders to maintain performance.
-- Inventory checks are done before placing orders.
-- Caching and Message Queue:
+   - Archiving old search history and orders to maintain performance.
+   - Inventory checks are done before placing orders.
+   - Caching and Message Queue:
 
 - Caching stores recommendations, popular product reviews, and recent order statuses.
-- A message queue decouples recommendation and cart services.
+  - A message queue decouples recommendation and cart services.
 #### Summary:
 The system design includes various services for searching, adding to the cart, placing orders, and reviewing products, all built for scalability and performance. It uses load balancing, multiple database copies, caching, and message queues to ensure that the system handles millions of users smoothly. Additionally, machine learning helps in recommending products, and older data is archived to maintain system efficiency.
