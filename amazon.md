@@ -1,24 +1,24 @@
 # Design Amazon (E-Commerece Website)
 
-Functional Requirements :
+## Functional Requirements :
 
 1. USer should be able to list down all the products (Inventory)
 2. There should be a recommendation system on the user profile
 3. Place Orders 
 4. View the status of the orders.
 
-Assumptions:
+## Assumptions:
 
 1. User profile creation is provided.
 2.Product Onboarding is provided.
 3. Payment gateway is provided.
 
-Non Functional Requirements :
+## Non Functional Requirements :
 
 1. Low latency ( For the user-facing components)
 2. High Consistency ( for the payments and the orders placed)
 
-Capacity Estimations : 
+## Capacity Estimations : 
 
 Active Users  = 300 M users / month making 10 searches a day.
               = 300*10 searches / day 
