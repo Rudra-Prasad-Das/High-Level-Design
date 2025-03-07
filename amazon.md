@@ -33,24 +33,24 @@ Database Design :
 
 User (SQL Data base)
 
-UserID (Primary Key)
-Password(String) Encrypted
-First Name(String)
-Last Name(String)
-Email (String)
-Last Loggedin (DTTM)
-Profile Created (DTTM)
+-UserID (Primary Key)
+-Password(String) Encrypted
+-First Name(String)
+-Last Name(String)
+-Email (String)
+-Last Loggedin (DTTM)
+-Profile Created (DTTM)
 
 
 Address :
 
-AddressID (Primary Key)
-UserID (Foreign Key)
-Address (String)
-State (String)
-Country (String)
-Pin (aplhanumeric)
-Address Type (Integer)
+-AddressID (Primary Key)
+-UserID (Foreign Key)
+-Address (String)
+-State (String)
+-Country (String)
+-Pin (aplhanumeric)
+-Address Type (Integer)
 
 
 Product : 
